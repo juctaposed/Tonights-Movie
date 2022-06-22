@@ -1,9 +1,10 @@
-$(document).ready(function(){
+// 2:57:57 https://www.twitch.tv/videos/1508382565  ;//
+$(document).ready(function () {
     $('#title').autocomplete({
-        source: async function(req, res){
-            let data = await fetch(`http://localhost:8000/search?query=${request.term}`)
-                .then(results => results.json())
-                .then(results => results.map(result => {
+        source: async function(req, res) {
+            let data = await fetch(`http://localhost:8000/search?query=${req.term}`)
+                .then(result => result.json())
+                .then(result => result.map(result => {
                     return {
                         label: result.title,
                         value: result.title,

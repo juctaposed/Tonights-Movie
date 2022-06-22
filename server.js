@@ -33,7 +33,7 @@ app.get("/search", async (req,res) => {
             {
                 "$Search" : { //tell mongo to search
                     "autocomplete" : { //type of search
-                        "query": `${request.query.query}`, //our search query
+                        "query": `${req.query.query}`, //our search query
                         "path": "title", 
                         "fuzzy": { //search type
                             "maxEdits": 2, //our user can make 2 spelling errors/characters when searching for a movie and we'll substitute missing or wrong characters
