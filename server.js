@@ -31,7 +31,7 @@ app.get("/search", async (req,res) => {
     try {
         let result = await collection.aggregate([//wait for our result to aggregate data together
             {
-                "$Search" : { //tell mongo to search
+                "$search" : { //tell mongo to search
                     "autocomplete" : { //type of search
                         "query": `${req.query.query}`, //our search query
                         "path": "title", 
@@ -44,8 +44,10 @@ app.get("/search", async (req,res) => {
             }
         ]).toArray() //dump the return into array so our JS knows what to do with it
         res.send(result)
+        // console.log(result)
     } catch (error) {
         res.status(500).send({message: error.message})
+        // console.log(error)
     }
 })
 //Get request once user clicks, using id as a parameter
