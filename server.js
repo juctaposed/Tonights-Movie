@@ -26,9 +26,9 @@ app.use(express.json())
 app.use(cors())
 // Methods for Requests to our Server
 
-// app.get('/', (req, res) => {
-//     res.sendFile(__dirname + '/index.html')
-// })
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/index.html')
+})
 //Get request for user to read database as they're typing out movie titles
 app.get("/search", async (req,res) => {
     try {
