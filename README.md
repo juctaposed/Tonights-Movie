@@ -12,7 +12,9 @@ This project revolves around a "fuzzy" search algorithm, where the users search 
 # Optimizations:
 Things I want to continue adding include more CRUD operations for more interactivity, such as favorites, already seen, no interest in watching, watchlist, etc.
 
-Also, it would be convenient for users if there were links or logos to where you can watch each movie.
+The database used to search movies is only up to date until 2020 - can optimize later to include latest releases
+
+It would also be convenient for users if there were links or logos to where you can watch each movie.
 
 
 # Lessons Learned:
