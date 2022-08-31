@@ -1,6 +1,6 @@
 # Tonights-Movie
 
-A quick and easy way to view popular movies or find your own, for indecisive folks who want to watch a movie TONIGHT! This is meant be a one stop shop to make it easy finding that movie to sit down with and relax - remove the headache of sifting through netflix for an hour
+A quick and easy way to view popular movies or find your own category, for indecisive folks who want to watch a movie TONIGHT! This is meant be a one stop shop to make it easy finding that movie to sit down with and relax - remove the headache of sifting through netflix for an hour
 
 ![tonights-movie](https://user-images.githubusercontent.com/99512305/187524347-9cb6052d-e635-4c2c-babc-131f6c62555b.JPG)
 
