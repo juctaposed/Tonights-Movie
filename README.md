@@ -7,7 +7,7 @@ A quick and easy way to view popular movies or find your own category, for indec
 # How It's Made:
 Tech used: HTML, CSS, JavaScript, Jquery, MongoDB, Node.js and Express.js
 
-This project revolves around a "fuzzy" search algorithm, where the users search will autocomplete to movie names that include the substring they've typed, or are relevant to a movies title, as long as they have 3 or more characters typed in the search input.
+This project revolves around a "fuzzy" search algorithm, where the users search will autocomplete to movie names that include the substring they've typed, or if that substring is relevant to a movies title, as long as they have 3 or more characters typed in the search input.
 
 # Optimizations:
 Things I want to continue adding include more CRUD operations for more interactivity, such as favorites, already seen, no interest in watching, watchlist, etc.
